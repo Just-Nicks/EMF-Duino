@@ -47,20 +47,22 @@ void updateLEDs(int value) {
 }
 
 void updateBuzzer(int value) {
-  if (value >= 251) {
-    tone(BUZZER_PIN, 2500, 100);
+  if (value >= 600) {
+    tone(BUZZER_PIN, 2500);
+    delay(50);
   }
-  else if (value >= 151) {
-    tone(BUZZER_PIN, 1800, 250);
+  else if (value >= 400) {
+    tone(BUZZER_PIN, 2000);
+    delay(50);
   }
-  else if (value >= 80) {
-    tone(BUZZER_PIN, 1000, 500);
+  else if (value >= 250) {
+    tone(BUZZER_PIN, 1000);
+    delay(50);
   }
   else {
     noTone(BUZZER_PIN);
   }
 }
-
 
 void loop() {
   static unsigned long nextCheck = 0;
