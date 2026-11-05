@@ -37,6 +37,8 @@ Eletromagnetic Field Meter with arduino
 | D5 | 220 Ω Resistor + Orange LED | Anode |
 | D6 | 220 Ω Resistor + Red LED | Anode |
 
+![Schematic](Schematic/Schematic.png)
+
 ## Software Requirements
 
 Before you upload the code, install the following software and libraries:
