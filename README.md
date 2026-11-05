@@ -27,17 +27,15 @@ Eletromagnetic Field Meter with arduino
 
 ## Circuit Connections
 
-Connect the DHT11 sensor to the Arduino Nano as shown in the table.
-
-| Arduino Nano | Conection |
-|---|---|---| 
-| D12 | Buzzer |
+| Arduino Nano | Component | Connection |
+|---|---|---|
+| D12 | Buzzer | + |
 | A0 | Ceramic Capacitor | ANT |
-| D2 | Green LED |
-| D3 | Green LED |
-| D4 | Yellow LED |
-| D5 | Orange LED |
-| D6 | Red LED |
+| D2 | 220 Ω Resistor + Green LED | Anode |
+| D3 | 220 Ω Resistor + Green LED | Anode |
+| D4 | 220 Ω Resistor + Yellow LED | Anode |
+| D5 | 220 Ω Resistor + Orange LED | Anode |
+| D6 | 220 Ω Resistor + Red LED | Anode |
 
 ## Software Requirements
 
