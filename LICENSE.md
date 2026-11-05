@@ -1,7 +1,7 @@
 # Personal Use – Restricted Distribution License (PURDL)
 ## Version 1.0
 
-Copyright (c) 2026 [NOME DO AUTOR]. All rights reserved.
+Copyright (c) 2026 Just-Nicks. All rights reserved.
 
 ### 1. Grant of Permission
 
