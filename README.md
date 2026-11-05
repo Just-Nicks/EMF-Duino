@@ -74,7 +74,7 @@ Some features that can be added to this project include:
 
 this project has its own license.
 
-See the `LICENSE` file for the full license terms.
+See the [LICENSE](LICENSE.md) file for the full license terms.
 
 ## Contributing
 
