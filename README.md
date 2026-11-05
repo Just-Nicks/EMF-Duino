@@ -36,6 +36,8 @@ Eletromagnetic Field Meter with arduino
 | D4 | 220 Ω Resistor + Yellow LED | Anode |
 | D5 | 220 Ω Resistor + Orange LED | Anode |
 | D6 | 220 Ω Resistor + Red LED | Anode |
+| VIN | 9V | Positive |
+| GND | 9V | Negative |
 
 ![Schematic](Schematic/Schematic.png)
 
